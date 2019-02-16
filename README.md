@@ -9,7 +9,7 @@ You and your friends decided to do some reconnaisance on the battlefield to help
 * The moves you can make are very limited; at each turn, you can move in one of the cardinal directions, enter a line, stay still, or have a team bot switch positions with another team bot.
 * Movement seems to take longer when moving into tiles with more people on them.
 * If a movement takes longer than a single turn, you can cancel the movement by either staying still or moving in a different direction. If you want to continue the movement, you have to keep walking in the same direction.
-* Because of the crowd, you can only see a radius of 2 tiles around you. (By "radius" we mean if you on a tile, you have vision in the 5x5 square that has your current tile in the center.)
+* Because of the crowd, you can only see a radius of x tiles around you, where x scales by the size of the board (By "radius" we mean if you on a tile, you have vision in the (2x+1) by (2x+1) square that has your current tile in the center.)
 * Once you are in a line, you have to stay still and let the line move you; if you make any movements, the people behind you will push you out.
 
 Although these rules are very different to you, you change your plans to accomodate to the new circumstances.
